@@ -1,0 +1,850 @@
+{
+  "_source": "Ported from the front end (ameer-website/src/lib/mock/data.ts and the About section). Paths are relative to this file.",
+  "serviceCategories": [
+    {
+      "key": "new-construction",
+      "title": "New Construction",
+      "summary": "For this service, contact PNE Homes.",
+      "externalUrl": "https://pnehomes.com/",
+      "image": {
+        "src": "media/photo-1672627170267-fca17bb54156.jpg",
+        "alt": "New house under construction with plywood walls"
+      },
+      "body": [],
+      "gallery": []
+    },
+    {
+      "key": "residential",
+      "title": "Residential Remodeling",
+      "summary": "Kitchens, bathrooms, basements, whole-home renovations, and additions designed around the way you live.",
+      "image": {
+        "src": "media/photo-1565183928294-7063f23ce0f8.jpg",
+        "alt": "Modern kitchen with white cabinets and a dark island"
+      },
+      "body": [
+        "Kitchens, bathrooms, basements and whole-home renovations, planned around the way your household lives. We start with a clear scope and estimate, so you know what will change, what it involves and the order the work will happen in.",
+        "One team coordinates every trade on site, from framing and plumbing to tile and trim, and keeps you updated at each stage. The goal is simple: rooms that work better, look better and feel like home."
+      ],
+      "gallery": [
+        {
+          "src": "media/photo-1507089947368-19c1da9775ae.jpg",
+          "alt": "Bright white kitchen"
+        },
+        {
+          "src": "media/photo-1779202730803-e5a924592475.jpg",
+          "alt": "Patio with a fireplace and chairs"
+        },
+        {
+          "src": "media/photo-1598654797939-407635ee99b1.jpg",
+          "alt": "White and grey house"
+        },
+        {
+          "src": "media/photo-1613274554329-70f997f5789f.jpg",
+          "alt": "Dining table and chairs"
+        }
+      ]
+    },
+    {
+      "key": "home-additions",
+      "title": "Home Additions",
+      "summary": "Add bedrooms, living space or a second story that matches the existing house inside and out.",
+      "showOnHome": false,
+      "image": {
+        "src": "media/photo-1676802037786-3697d60497ae.jpg",
+        "alt": "House addition under construction with wood framing"
+      },
+      "body": [
+        "An addition should feel like it was always part of the house. We plan the new space around how you will use it, then match the roofline, siding, windows and finishes so the old and the new read as one home.",
+        "The work covers the foundation and framing, the roof tie-in, and the electrical, plumbing and heating that connect the addition to the rest of the house, all coordinated by one team and scheduled to keep disruption low."
+      ],
+      "gallery": [
+        {
+          "src": "media/photo-1676802037786-3697d60497ae.jpg",
+          "alt": "Wood-framed addition on the side of a house"
+        },
+        {
+          "src": "media/photo-1587582423116-ec07293f0395.jpg",
+          "alt": "Builder in a hard hat on a wood-framed structure"
+        },
+        {
+          "src": "media/photo-1649083048337-4aeb6dda80bb.jpg",
+          "alt": "Living room open to a kitchen"
+        },
+        {
+          "src": "media/photo-1598654797939-407635ee99b1.jpg",
+          "alt": "White and grey house"
+        }
+      ]
+    },
+    {
+      "key": "commercial",
+      "title": "Commercial Construction",
+      "summary": "Professional commercial renovation and construction solutions designed to support your business.",
+      "image": {
+        "src": "media/photo-1790737073979-92a338b8c044.jpg",
+        "alt": "Worker renovating a commercial space with a ladder"
+      },
+      "body": [
+        "Restaurants, stores, offices and other commercial spaces run on schedules that matter. We plan build-outs and renovations around your opening date and, when the business stays open, around your hours.",
+        "From demolition and framing to finishes and the final punch list, we coordinate the trades, inspections and property manager requirements, so the space is ready for customers and staff."
+      ],
+      "gallery": [
+        {
+          "src": "media/photo-1567880905822-56f8e06fe630.jpg",
+          "alt": "Coffee shop interior with a curved counter"
+        },
+        {
+          "src": "media/photo-1765360773028-6affda725695.jpg",
+          "alt": "Restaurant dining room with set tables"
+        },
+        {
+          "src": "media/photo-1764795850216-7bba254f8dcf.jpg",
+          "alt": "Retail store with display cases and shelves"
+        },
+        {
+          "src": "media/photo-1511081692775-05d0f180a065.jpg",
+          "alt": "Cafe interior with hanging bulbs"
+        }
+      ]
+    },
+    {
+      "key": "exterior",
+      "title": "Exterior Improvements",
+      "summary": "Exterior solutions that improve the appearance, durability, and value of your property.",
+      "image": {
+        "src": "media/photo-1773101883541-42a4881daef3.jpg",
+        "alt": "Blue siding house with white trim"
+      },
+      "body": [
+        "The outside of a building takes the weather every day. We handle siding, soffit and fascia, decks, concrete, retaining walls and drainage, with the details that keep water out and keep the work looking sharp.",
+        "Every exterior project starts with a look at what is there now: the surface underneath, the slope of the ground and where the water goes. Then we recommend the materials and approach that suit the property and the budget."
+      ],
+      "gallery": [
+        {
+          "src": "media/photo-1613544723412-b331bda01e87.jpg",
+          "alt": "Table and chairs on a wooden deck"
+        },
+        {
+          "src": "media/photo-1790547220819-074ff91b8cc2.jpg",
+          "alt": "Wooden deck with a small pool"
+        },
+        {
+          "src": "media/photo-1604177420528-44bb3e1dcd7b.jpg",
+          "alt": "White wooden siding"
+        },
+        {
+          "src": "media/photo-1761637822987-282e320d7ee9.jpg",
+          "alt": "Stone wall with trimmed hedges"
+        }
+      ]
+    }
+  ],
+  "serviceFilters": [
+    {
+      "key": "new-construction",
+      "label": "New Construction"
+    },
+    {
+      "key": "residential",
+      "label": "Residential"
+    },
+    {
+      "key": "home-additions",
+      "label": "Home Additions"
+    },
+    {
+      "key": "commercial",
+      "label": "Commercial"
+    },
+    {
+      "key": "exterior",
+      "label": "Exterior"
+    }
+  ],
+  "services": [
+    {
+      "id": "new-builds",
+      "title": "New Builds",
+      "description": "From permits and planning through final inspection, we help bring a new construction project from concept to completion.",
+      "categories": [
+        "new-construction"
+      ],
+      "includes": [
+        "Planning and estimating",
+        "Site work, foundation and framing",
+        "Finish work and closeout"
+      ],
+      "image": {
+        "src": "media/photo-1774869174949-9fd84ba6cc0c.jpg",
+        "alt": "Houses under construction with wooden frames"
+      }
+    },
+    {
+      "id": "custom-homes",
+      "title": "Custom Homes",
+      "description": "Homes designed around your lot, budget and lifestyle, built with clear communication at every milestone.",
+      "categories": [
+        "new-construction"
+      ],
+      "includes": [
+        "Design coordination",
+        "Material and finish selections",
+        "Milestone reviews with you"
+      ],
+      "image": {
+        "src": "media/photo-1721815693498-cc28507c0ba2.jpg",
+        "alt": "Two-story house with large windows and balconies"
+      }
+    },
+    {
+      "id": "kitchen-remodeling",
+      "title": "Kitchen Remodeling",
+      "description": "Layouts, cabinetry, counters and finishes planned around how you cook and gather. We coordinate every trade so the kitchen is back in use as soon as possible.",
+      "categories": [
+        "residential"
+      ],
+      "includes": [
+        "Layout and cabinet planning",
+        "Countertops, backsplash and flooring",
+        "Lighting, plumbing and electrical updates"
+      ],
+      "image": {
+        "src": "media/photo-1609347744403-2306e8a9ae27.jpg",
+        "alt": "Kitchen with marble islands and woven stools"
+      }
+    },
+    {
+      "id": "bathroom-remodeling",
+      "title": "Bathroom Remodeling",
+      "description": "From a refreshed guest bath to a full primary suite, we rebuild bathrooms with durable materials and clean, watertight detailing.",
+      "categories": [
+        "residential"
+      ],
+      "includes": [
+        "Showers, tubs and vanities",
+        "Tile and waterproofing",
+        "Fixtures, lighting and ventilation"
+      ],
+      "image": {
+        "src": "media/photo-1584622650111-993a426fbf0a.jpg",
+        "alt": "Modern bathroom with shower and vanity"
+      }
+    },
+    {
+      "id": "basement-finishing",
+      "title": "Basement Finishing",
+      "description": "Turn unused square footage into a family room, office or guest suite with proper framing, moisture control and comfortable finishes.",
+      "categories": [
+        "residential"
+      ],
+      "includes": [
+        "Framing, insulation and drywall",
+        "Flooring, ceilings and lighting",
+        "Bathrooms, bars and storage"
+      ],
+      "image": {
+        "src": "media/photo-1646592491741-e79ae5953486.jpg",
+        "alt": "Finished room with a staircase and hardwood floors"
+      }
+    },
+    {
+      "id": "whole-home-remodeling",
+      "title": "Whole Home Remodeling",
+      "description": "One team and one schedule. We plan and sequence a full-house renovation so rooms, systems and finishes work together.",
+      "categories": [
+        "residential"
+      ],
+      "includes": [
+        "Room-by-room scope planning",
+        "Structural, electrical and plumbing coordination",
+        "Phased scheduling around your household"
+      ],
+      "image": {
+        "src": "media/photo-1649083048337-4aeb6dda80bb.jpg",
+        "alt": "Living room open to a kitchen"
+      }
+    },
+    {
+      "id": "home-additions",
+      "title": "Home Additions",
+      "description": "Add bedrooms, living space or a second story that matches the existing house inside and out.",
+      "categories": [
+        "home-additions"
+      ],
+      "includes": [
+        "Foundations and framing",
+        "Roof tie-ins and exterior matching",
+        "Interior finishes and systems"
+      ],
+      "image": {
+        "src": "media/photo-1676802037786-3697d60497ae.jpg",
+        "alt": "House addition under construction with wood framing"
+      }
+    },
+    {
+      "id": "restaurant-projects",
+      "title": "Restaurant Projects",
+      "description": "Dining rooms, kitchens and bar areas built to code and built for service, with schedules that respect your opening date.",
+      "categories": [
+        "commercial"
+      ],
+      "includes": [
+        "Dining room and bar build-outs",
+        "Commercial kitchen coordination",
+        "Code and inspection support"
+      ],
+      "image": {
+        "src": "media/photo-1776763255189-3c8237aec808.jpg",
+        "alt": "Restaurant interior with tables and seating"
+      }
+    },
+    {
+      "id": "commercial-renovations",
+      "title": "Commercial Renovations",
+      "description": "Updates to existing commercial space that keep your business moving while the work is underway.",
+      "categories": [
+        "commercial"
+      ],
+      "includes": [
+        "Interior demolition and rebuild",
+        "Phased work around operations",
+        "Finishes and punch list"
+      ],
+      "image": {
+        "src": "media/photo-1772298783095-be38fa901232.jpg",
+        "alt": "Construction workers in a large commercial space"
+      }
+    },
+    {
+      "id": "build-outs",
+      "title": "Build-Outs",
+      "description": "Turn a shell or an empty suite into a finished, ready-to-open space for your business.",
+      "categories": [
+        "commercial"
+      ],
+      "includes": [
+        "Framing, drywall and ceilings",
+        "Electrical, HVAC and plumbing coordination",
+        "Flooring, paint and fixtures"
+      ],
+      "image": {
+        "src": "media/photo-1764795850238-7a024db5e3ee.jpg",
+        "alt": "Retail store interior with display cases"
+      }
+    },
+    {
+      "id": "tenant-improvements",
+      "title": "Tenant Improvements",
+      "description": "Custom interior work for leased space, coordinated with property managers and landlord requirements.",
+      "categories": [
+        "commercial"
+      ],
+      "includes": [
+        "Landlord and permit coordination",
+        "Office, retail and service layouts",
+        "Compact schedules to limit downtime"
+      ],
+      "image": {
+        "src": "media/photo-1497366754035-f200968a6e72.jpg",
+        "alt": "Office hallway between glass-panel doors"
+      }
+    },
+    {
+      "id": "siding",
+      "title": "Siding",
+      "description": "New siding that improves curb appeal, weather protection and long-term value.",
+      "categories": [
+        "exterior"
+      ],
+      "includes": [
+        "Removal and substrate repair",
+        "Vinyl, fiber cement and composite options",
+        "Trim, flashing and sealing"
+      ],
+      "image": {
+        "src": "media/photo-1631458325834-8f678e48912c.jpg",
+        "alt": "White house with a black front door"
+      }
+    },
+    {
+      "id": "soffit-and-fascia",
+      "title": "Soffit and Fascia",
+      "description": "Clean roofline finishing that protects the eaves from moisture and pests while sharpening the look of the house.",
+      "categories": [
+        "exterior"
+      ],
+      "includes": [
+        "Soffit and fascia replacement",
+        "Ventilated soffit options",
+        "Gutter coordination"
+      ],
+      "image": {
+        "src": "media/photo-1654531015087-8cc3d04d1b2d.jpg",
+        "alt": "Gutter attached to the side of a building"
+      }
+    },
+    {
+      "id": "decks",
+      "title": "Decks",
+      "description": "Durable outdoor living spaces built for how you entertain, from simple platforms to multi-level decks.",
+      "categories": [
+        "exterior"
+      ],
+      "includes": [
+        "Pressure-treated, cedar and composite",
+        "Railings, stairs and lighting",
+        "Footings built to code"
+      ],
+      "image": {
+        "src": "media/photo-1760552268175-431696421106.jpg",
+        "alt": "Wooden deck surrounded by trees"
+      }
+    },
+    {
+      "id": "concrete",
+      "title": "Concrete",
+      "description": "Driveways, patios, walkways and slabs poured and finished for strength and a clean appearance.",
+      "categories": [
+        "exterior"
+      ],
+      "includes": [
+        "Driveways and walkways",
+        "Patios and slabs",
+        "Forming, finishing and sealing"
+      ],
+      "image": {
+        "src": "media/photo-1783125127341-81112b795c23.jpg",
+        "alt": "White house with a concrete driveway"
+      }
+    },
+    {
+      "id": "retaining-walls",
+      "title": "Retaining Walls",
+      "description": "Structural and decorative walls that hold back soil, manage slopes and add usable yard space.",
+      "categories": [
+        "exterior"
+      ],
+      "includes": [
+        "Block, stone and timber options",
+        "Drainage and base preparation",
+        "Grading and backfill"
+      ],
+      "image": {
+        "src": "media/photo-1767263318272-01a10851d5d2.jpg",
+        "alt": "Gabion retaining wall filled with stone"
+      }
+    },
+    {
+      "id": "drainage",
+      "title": "Drainage",
+      "description": "Solutions that move water away from your foundation and protect your landscape.",
+      "categories": [
+        "exterior"
+      ],
+      "includes": [
+        "Grading and swales",
+        "Downspout and French drains",
+        "Sump and discharge routing"
+      ],
+      "image": {
+        "src": "media/photo-1600093652298-e57ee8aba769.jpg",
+        "alt": "Water running off a roof"
+      }
+    }
+  ],
+  "projectCategories": [
+    {
+      "key": "restaurants",
+      "label": "Restaurants"
+    },
+    {
+      "key": "exterior",
+      "label": "Exterior"
+    },
+    {
+      "key": "smoke-shops",
+      "label": "Smoke Shops"
+    },
+    {
+      "key": "cafes",
+      "label": "Cafés"
+    }
+  ],
+  "projects": [
+    {
+      "id": "restaurant",
+      "title": "Restaurant Build-Out",
+      "location": "Columbus, OH",
+      "description": "A dining room, bar and service area built out on a fixed opening date.",
+      "categories": [
+        "restaurants"
+      ],
+      "featured": true,
+      "cover": {
+        "src": "media/photo-1776763255189-3c8237aec808.jpg",
+        "alt": "Restaurant interior with tables and seating"
+      },
+      "gallery": [
+        {
+          "src": "media/photo-1776763255189-3c8237aec808.jpg",
+          "alt": "Restaurant interior with tables and seating"
+        },
+        {
+          "src": "media/photo-1765360773028-6affda725695.jpg",
+          "alt": "Restaurant dining room with set tables"
+        },
+        {
+          "src": "media/photo-1783447036642-90a65ff85a0f.jpg",
+          "alt": "Busy restaurant with a bar"
+        },
+        {
+          "src": "media/photo-1765021097487-6da56c1ce412.jpg",
+          "alt": "Restaurant dining room"
+        }
+      ]
+    },
+    {
+      "id": "bar-grill",
+      "title": "Bar and Grill Renovation",
+      "location": "Dublin, OH",
+      "description": "New seating, lighting and a reworked bar area for a neighborhood bar and grill.",
+      "categories": [
+        "restaurants"
+      ],
+      "featured": false,
+      "cover": {
+        "src": "media/photo-1517248135467-4c7edcad34c4.jpg",
+        "alt": "Pub dining room with tables"
+      },
+      "gallery": [
+        {
+          "src": "media/photo-1517248135467-4c7edcad34c4.jpg",
+          "alt": "Pub dining room with tables"
+        },
+        {
+          "src": "media/photo-1667388969250-1c7220bf3f37.jpg",
+          "alt": "Dining room with tables and chairs"
+        },
+        {
+          "src": "media/photo-1729394405518-eaf2a0203aa7.jpg",
+          "alt": "Restaurant with many tables and chairs"
+        },
+        {
+          "src": "media/photo-1613274554329-70f997f5789f.jpg",
+          "alt": "Dining table and chairs"
+        }
+      ]
+    },
+    {
+      "id": "cafe",
+      "title": "Neighborhood Café",
+      "location": "Westerville, OH",
+      "description": "A warm, open café with a curved service counter and flexible seating.",
+      "categories": [
+        "cafes"
+      ],
+      "featured": true,
+      "cover": {
+        "src": "media/photo-1567880905822-56f8e06fe630.jpg",
+        "alt": "Coffee shop interior with a curved counter"
+      },
+      "gallery": [
+        {
+          "src": "media/photo-1567880905822-56f8e06fe630.jpg",
+          "alt": "Coffee shop interior with a curved counter"
+        },
+        {
+          "src": "media/photo-1511081692775-05d0f180a065.jpg",
+          "alt": "Cafe interior with hanging bulbs"
+        },
+        {
+          "src": "media/photo-1770739538932-433941c1267e.jpg",
+          "alt": "Modern cafe with tables and chairs"
+        },
+        {
+          "src": "media/photo-1770739539412-d9e1021429cf.jpg",
+          "alt": "Cafe seating with warm lighting"
+        }
+      ]
+    },
+    {
+      "id": "coffee-bar",
+      "title": "Coffee Bar Build-Out",
+      "location": "Grove City, OH",
+      "description": "A compact coffee bar with a service counter, equipment line and bright seating.",
+      "categories": [
+        "cafes"
+      ],
+      "featured": false,
+      "cover": {
+        "src": "media/photo-1777372307561-38fbe6a2eb02.jpg",
+        "alt": "Coffee counter with an espresso machine"
+      },
+      "gallery": [
+        {
+          "src": "media/photo-1777372307561-38fbe6a2eb02.jpg",
+          "alt": "Coffee counter with an espresso machine"
+        },
+        {
+          "src": "media/photo-1774758959178-094de5122e29.jpg",
+          "alt": "Coffee shop with large windows"
+        },
+        {
+          "src": "media/photo-1788404805053-6333ed913a5e.jpg",
+          "alt": "Barista behind a wooden counter"
+        },
+        {
+          "src": "media/photo-1769259851826-6bd941006936.jpg",
+          "alt": "Espresso machine and menu"
+        }
+      ]
+    },
+    {
+      "id": "smoke-shop",
+      "title": "Smoke Shop Storefront",
+      "location": "Columbus, OH",
+      "description": "Storefront signage, display cases and lighting for a new retail space.",
+      "categories": [
+        "smoke-shops"
+      ],
+      "featured": true,
+      "cover": {
+        "src": "media/photo-1512659348068-1a36e9d2253e.jpg",
+        "alt": "Lit neon smoke shop sign"
+      },
+      "gallery": [
+        {
+          "src": "media/photo-1512659348068-1a36e9d2253e.jpg",
+          "alt": "Lit neon smoke shop sign"
+        },
+        {
+          "src": "media/photo-1764795849755-ab58c8fef307.jpg",
+          "alt": "Retail store interior with display cases"
+        },
+        {
+          "src": "media/photo-1764795850238-7a024db5e3ee.jpg",
+          "alt": "Retail store interior with display cases"
+        },
+        {
+          "src": "media/photo-1764795850216-7bba254f8dcf.jpg",
+          "alt": "Retail store with display cases and shelves"
+        }
+      ]
+    },
+    {
+      "id": "smoke-shop-2",
+      "title": "Smoke Shop Build-Out",
+      "location": "Hilliard, OH",
+      "description": "Shelving, counters and display fixtures built out for a full retail floor.",
+      "categories": [
+        "smoke-shops"
+      ],
+      "featured": false,
+      "cover": {
+        "src": "media/photo-1699631559204-06999f354364.jpg",
+        "alt": "Display case with product"
+      },
+      "gallery": [
+        {
+          "src": "media/photo-1699631559204-06999f354364.jpg",
+          "alt": "Display case with product"
+        },
+        {
+          "src": "media/photo-1765293995398-bdb4d7c13e74.jpg",
+          "alt": "Collection of ornate hookahs on display"
+        },
+        {
+          "src": "media/photo-1736167443239-4d1497ca28a7.jpg",
+          "alt": "Store filled with shelves of items"
+        },
+        {
+          "src": "media/photo-1764795850395-93f54dc61bc0.jpg",
+          "alt": "Two people at a store counter"
+        }
+      ]
+    },
+    {
+      "id": "deck-patio",
+      "title": "Deck and Patio",
+      "location": "Powell, OH",
+      "description": "A multi-zone outdoor living space with a new deck and a patio seating area.",
+      "categories": [
+        "exterior"
+      ],
+      "featured": false,
+      "cover": {
+        "src": "media/photo-1760552268175-431696421106.jpg",
+        "alt": "Wooden deck surrounded by trees"
+      },
+      "gallery": [
+        {
+          "src": "media/photo-1760552268175-431696421106.jpg",
+          "alt": "Wooden deck surrounded by trees"
+        },
+        {
+          "src": "media/photo-1613544723412-b331bda01e87.jpg",
+          "alt": "Table and chairs on a wooden deck"
+        },
+        {
+          "src": "media/photo-1790547220819-074ff91b8cc2.jpg",
+          "alt": "Wooden deck with a small pool"
+        },
+        {
+          "src": "media/photo-1779202730803-e5a924592475.jpg",
+          "alt": "Patio with a fireplace and chairs"
+        }
+      ]
+    },
+    {
+      "id": "siding",
+      "title": "Siding and Exterior Refresh",
+      "location": "Gahanna, OH",
+      "description": "New siding, trim and entry details that updated the whole front of the house.",
+      "categories": [
+        "exterior"
+      ],
+      "featured": false,
+      "cover": {
+        "src": "media/photo-1773101883541-42a4881daef3.jpg",
+        "alt": "Blue siding house with white trim"
+      },
+      "gallery": [
+        {
+          "src": "media/photo-1773101883541-42a4881daef3.jpg",
+          "alt": "Blue siding house with white trim"
+        },
+        {
+          "src": "media/photo-1631458325834-8f678e48912c.jpg",
+          "alt": "White house with a black front door"
+        },
+        {
+          "src": "media/photo-1598654797939-407635ee99b1.jpg",
+          "alt": "White and grey house"
+        },
+        {
+          "src": "media/photo-1604177420528-44bb3e1dcd7b.jpg",
+          "alt": "White wooden siding"
+        }
+      ]
+    },
+    {
+      "id": "retaining-wall",
+      "title": "Retaining Wall and Drainage",
+      "location": "Lewis Center, OH",
+      "description": "A stone retaining wall and drainage routing to stabilize a sloped yard.",
+      "categories": [
+        "exterior"
+      ],
+      "featured": false,
+      "cover": {
+        "src": "media/photo-1767263318272-01a10851d5d2.jpg",
+        "alt": "Gabion retaining wall filled with stone"
+      },
+      "gallery": [
+        {
+          "src": "media/photo-1767263318272-01a10851d5d2.jpg",
+          "alt": "Gabion retaining wall filled with stone"
+        },
+        {
+          "src": "media/photo-1761637822987-282e320d7ee9.jpg",
+          "alt": "Stone wall with trimmed hedges"
+        },
+        {
+          "src": "media/photo-1600093652298-e57ee8aba769.jpg",
+          "alt": "Water running off a roof"
+        },
+        {
+          "src": "media/photo-1654531015087-8cc3d04d1b2d.jpg",
+          "alt": "Gutter attached to the side of a building"
+        }
+      ]
+    }
+  ],
+  "reviews": [
+    {
+      "id": "marcus-hollander",
+      "name": "Marcus Hollander",
+      "initials": "MH",
+      "project": "Kitchen remodel, Powell, OH",
+      "rating": 5,
+      "quote": "The crew kept us informed every day and the kitchen came out better than the drawings. They cleaned up after every shift.",
+      "photo": "media/avatar-12.jpg"
+    },
+    {
+      "id": "danielle-okafor",
+      "name": "Danielle Okafor",
+      "initials": "DO",
+      "project": "Bathroom remodel, Lewis Center, OH",
+      "rating": 5,
+      "quote": "From the estimate to the final walkthrough, everything was clear. The new bathroom feels like it came with the house.",
+      "photo": "media/avatar-47.jpg"
+    },
+    {
+      "id": "tom-brzezinski",
+      "name": "Tom Brzezinski",
+      "initials": "TB",
+      "project": "Restaurant build-out, Columbus, OH",
+      "rating": 5,
+      "quote": "We had a hard opening date and the team coordinated every trade around it. We opened on time.",
+      "photo": "media/avatar-33.jpg"
+    },
+    {
+      "id": "hannah-whitfield",
+      "name": "Hannah Whitfield",
+      "initials": "HW",
+      "project": "Whole-home renovation, Dublin, OH",
+      "rating": 4,
+      "quote": "A big project with many moving parts. Communication was the strongest part and punch-list items were fixed quickly.",
+      "photo": "media/avatar-44.jpg"
+    },
+    {
+      "id": "luis-barrera",
+      "name": "Luis Barrera",
+      "initials": "LB",
+      "project": "Deck and patio, Westerville, OH",
+      "rating": 5,
+      "quote": "Fair price, solid work, and they showed up when they said they would. The deck is our favorite spot now.",
+      "photo": "media/avatar-15.jpg"
+    },
+    {
+      "id": "sandra-kowalczyk",
+      "name": "Sandra Kowalczyk",
+      "initials": "SK",
+      "project": "Basement finishing, Hilliard, OH",
+      "rating": 5,
+      "quote": "They turned an unused basement into our family room and walked the job with us at every stage.",
+      "photo": "media/avatar-5.jpg"
+    }
+  ],
+  "settings": {
+    "showReviews": true,
+    "heroMode": "slider",
+    "heroSlides": [
+      {
+        "src": "media/photo-1757524492552-d47a66a2b63e.jpg",
+        "alt": "Modern home with large windows at dusk"
+      },
+      {
+        "src": "media/photo-1507089947368-19c1da9775ae.jpg",
+        "alt": "Bright white kitchen"
+      },
+      {
+        "src": "media/photo-1587582423116-ec07293f0395.jpg",
+        "alt": "Builder in a hard hat on a wood-framed structure"
+      },
+      {
+        "src": "media/photo-1765360773028-6affda725695.jpg",
+        "alt": "Restaurant dining room with set tables"
+      }
+    ],
+    "heroVideo": {
+      "src": "media/hero-video.mp4",
+      "poster": "media/hero-video-poster.jpg"
+    }
+  },
+  "aboutImage": {
+    "src": "media/photo-1565183928294-7063f23ce0f8.jpg",
+    "alt": "Modern kitchen with white cabinets and a dark island"
+  },
+  "favicon": "media/favicon.png"
+}
